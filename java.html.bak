@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<html>
+	<head>
+		<title> Java </title>
+		<meta name="author" content ="Selina Mendoza">
+		<meta name="Class Name" content ="IS 210">
+		<style type = "text/css">
+		</style>
+		<link rel= "stylesheet" href="styles.css">
+		
+	</head>
+		<body style="background-image: url('lines.jpg');">
+			
+
+
+
+
+
+
+		</head>	
+		<body>
+	<header>
+		<nav>
+			<tr>
+			<center>
+			<table-cellspacing="10" cellpadding="10">
+			<p style= "font-size: 20pt; color:  black" /p>
+				<td><a href="java.html">	Java script </a></td>
+				 &nbsp;&nbsp; 
+		
+			</center>
+			
+			</tr>
+		</nav>
+        <script type="text/javascript" language="javascript">
+        
+        function determineFactors(inputElement) {
+               
+                var value = inputElement.value;
+                
+                value = parseInt(value);
+                
+                var factors = [];
+                
+                for(var i = 1; i <= value; i++) {
+                    
+                        if(value % i == 0) {
+                                factors.push(i);
+                        }
+                }
+               
+                document.getElementById("result").innerHTML = "Factors: " + factors;
+        }
+        </script>
+</head>
+
+<body>
+    
+        <form name="myForm" action="javascript:void(0)" onsubmit="determineFactors(num);">
+                <input type="text" name="num" />
+                <input type="submit" value="Find factors"> </form>
+        <p id="result"></p>
+</body>
+
+</html>

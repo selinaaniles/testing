@@ -1,0 +1,43 @@
+p{
+
+	font-family:Arial Black;
+	font-size:20pt;
+	color:white;
+	-webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+	
+
+	
+}
+h1{
+		font-size:50pt; 
+		color: White;
+		
+
+}
+header{	font-size:30pt; 
+		
+		color: White;
+
+
+}
+
+h3{		
+
+	font-size:40pt;
+		color: Blue;
+}
+
+h4{ font-size: 25pt;
+	color: Pink;
+}
+{		
+		margin:0px;
+		padding: 0px;
+		box-sizing: border-box;
+		
+}
+
+
+
+}

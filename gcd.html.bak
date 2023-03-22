@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<html>
+	<head>
+		<title> Java </title>
+		<meta name="author" content ="Selina Mendoza">
+		<meta name="Class Name" content ="IS 210">
+		<style type = "text/css">
+		</style>
+		<link rel= "stylesheet" href="styles.css">
+		
+	</head>
+		<body style="background-image: url('lines.jpg');">
+			
+
+		</head>	
+		<body>
+	<header>
+		<nav>
+			<tr>
+			<center>
+			<table-cellspacing="10" cellpadding="10">
+			<p style= "font-size: 20pt; color: White" /p>
+				<td><a href="javagcd.html">	Java script </a></td>
+				 &nbsp;&nbsp; 
+				<td><a href="gcd.html"> GCD </a></td> 
+				 &nbsp;&nbsp; 
+				
+			</center>
+			
+			</tr>
+		</nav>  
+        
+</head>
+<h1> <center>
+Find the Greatest Common Denominator </h1>
+<body>
+    <center>
+      
+        <input type="text" id="b1" placeholder="First Number: ">
+        <input type="text" id="b2" placeholder="Second Number: ">
+        <input type="button" value="Calculate Here" id="clickMe">
+<div id="n"></div>
+
+<script>
+function area(){
+
+        var x1=document.getElementById("b1").value;
+        var x2=document.getElementById("b2").value;
+        var n=document.getElementById("n");
+        x1=Number(x1);
+        x2=Number(x2);
+        let  temp = 1;
+        for(let i = 1; i <= x1 && i <= x2; ++i)
+        {
+                if(x1 % i==0 && x2 % i==0)
+                        temp = i;
+        }
+        n.textContent= " Greatest Common Denominator:  "+temp+" \n";
+}
+var clickMe=document.getElementById("clickMe");
+clickMe.onclick=area;
+</script>
+</body>
+
+</html>
